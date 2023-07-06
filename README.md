@@ -15,7 +15,7 @@ Prerequisites:
 
 Files in repository:
 1. PART ONE.csv contains a new column LABEL containing predicted labels added to unlabelled_data.csv.
-2. report.ppt file contains report on part one.
-3. part-two.ipynb with all the tasks executed.
-4. bonus.ipynb contains plot of bonus_image_1.fits
+2. REPORT.pptx file contains report on part one.
+3. PART TWO.ipynb with all the tasks executed.
+4. BONUS.ipynb contains plot of bonus_image_1.fits
    
