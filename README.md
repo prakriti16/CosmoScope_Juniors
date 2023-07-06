@@ -12,6 +12,8 @@
 
 
 # CosmoScope_Juniors
+Download 
+
 report
 python notebooks
 unlabelled_data.csv contains predicted labels as a new column.
