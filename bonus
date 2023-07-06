@@ -1,1 +1,28 @@
+from astropy.io import fits
+import matplotlib.pyplot as plt
+
+# Open the FITS file
+hdulist = fits.open('bonus_image_1.fits')
+
+hdulist.info()
+image=hdulist[0].data
+
+# Get the table data and columns
+table = hdulist[1].data
+columns = table.columns
+
+# Print column names
+print(columns.names)
+
+# Print table structure
+print(columns)
+
+# Close the FITS file
+hdulist.close()
+
+# Display the image
+plt.imshow(image, cmap='plasma')
+plt.colorbar(label='Intensity')
+plt.title('Image')
+plt.show()
 
