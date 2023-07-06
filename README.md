@@ -15,5 +15,7 @@ Download files labelled_data.csv and unlabelled_data.csv from https://drive.goog
 
 Files in repository:
 1. Csv file PART ONE.csv contains a new column LABEL containing predicted labels added to unlabelled_data.csv.
-2. Jupyter notebook with all the tasks executed.
-3. Jupyter notebook bonus contains plot of bonus_image_1.fits
+2. report.ppt file contains report on part one.
+3. Jupyter notebook part-two with all the tasks executed.
+4. Jupyter notebook bonus contains plot of bonus_image_1.fits
+   
