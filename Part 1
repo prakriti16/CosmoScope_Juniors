@@ -1,0 +1,54 @@
+from astropy.io import fits
+import matplotlib.pyplot as plt
+
+# Open the FITS file
+hdulist = fits.open('lightcurve_1.fits')
+
+# Get the table data and columns
+table = hdulist[1].data
+columns = table.columns
+
+
+
+# Access the PDCSAP_FLUX and TIME columns
+pdcsap_flux = table['PDCSAP_FLUX']
+time = table['TIME']
+sap_quality = table['SAP_QUALITY']
+
+# Print information about the FITS file
+hdulist.info()
+
+# Access individual extensions
+header = hdulist[0].header  # Assuming the header is in the first extension
+image = hdulist[2].data  # Assuming the image is in the third extension
+
+#print(table[0])
+#cols.info()
+
+# Close the FITS file
+hdulist.close()
+
+# Plot the scatterplot of PDCSAP_FLUX vs. TIME
+plt.figure()
+plt.scatter(time, pdcsap_flux, s=5, alpha=0.5, label='All Data')
+plt.xlabel('TIME')
+plt.ylabel('PDCSAP_FLUX')
+plt.title('Scatterplot of PDCSAP_FLUX vs. TIME')
+
+# Display the lightcurve image
+plt.figure()
+hdulist=fits.open('lightcurve_1.fits')
+image_data=hdulist[2].data
+hdulist.close()
+plt.imshow(image, cmap='twilight')
+#plt.legend()
+plt.colorbar(label='Intensity')
+plt.title('Lightcurve Image')
+
+# Plot the values where SAP_QUALITY > 0 in a different color
+mask = sap_quality > 0
+plt.figure(1)
+plt.scatter(time[mask], pdcsap_flux[mask], color='red', s=5, alpha=0.5, label='SAP_QUALITY > 0')
+plt.legend()
+plt.show()
+
