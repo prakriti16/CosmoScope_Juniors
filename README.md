@@ -14,8 +14,8 @@ Prerequisites:
 2. Download files labelled_data.csv and unlabelled_data.csv from https://drive.google.com/drive/folders/17j-MI-Gnqb_sV_3OaF0uzyoRAWBSwn__?usp=drive_link
 
 Files in repository:
-1. Csv file PART ONE.csv contains a new column LABEL containing predicted labels added to unlabelled_data.csv.
+1. PART ONE.csv contains a new column LABEL containing predicted labels added to unlabelled_data.csv.
 2. report.ppt file contains report on part one.
-3. Jupyter notebook part-two with all the tasks executed.
-4. Jupyter notebook bonus contains plot of bonus_image_1.fits
+3. part-two.ipynb with all the tasks executed.
+4. bonus.ipynb contains plot of bonus_image_1.fits
    
