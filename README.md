@@ -8,6 +8,8 @@
 [![GitHub watchers](https://github.com/prakriti16/CosmoScope_Juniors.git.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/watchers/)
 [![GitHub contributors](https://github.com/prakriti16/CosmoScope_Juniors.git.svg)]()
 [![GitHub contributors](https://github.com/prakriti16/CosmoScope_Juniors.git)]()
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields]()
+
 # CosmoScope_Juniors
 report
 python notebooks
