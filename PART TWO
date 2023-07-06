@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 #task1
 # Open the FITS file
-hdulist = fits.open('/kaggle/input/soi123/lightcurve_1.fits')
+hdulist = fits.open('lightcurve_1.fits')
 
 # Get the table data and columns
 table = hdulist[1].data
@@ -46,7 +46,7 @@ plt.show()
 #task4
 # Display the lightcurve image
 plt.figure()
-hdulist=fits.open('/kaggle/input/soi123/lightcurve_1.fits')
+hdulist=fits.open('lightcurve_1.fits')
 image_data=hdulist[2].data
 hdulist.close()
 plt.imshow(image, cmap='twilight')
