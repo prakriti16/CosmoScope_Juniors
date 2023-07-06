@@ -18,4 +18,4 @@ Files in repository:
 2. REPORT.pptx file contains report on part one.
 3. PART TWO.ipynb with all the tasks executed.
 4. BONUS.ipynb contains plot of bonus_image_1.fits
-   
+5. part-one.ipynb contains implementation of the ml model used in part one.
