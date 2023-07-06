@@ -5,7 +5,7 @@
 [![GitHub branches](https://img.shields.io/github/commit-activity/t/prakriti16/CosmoScope_Juniors)](https://github.com/prakriti16/CosmoScope_Juniors.git)
 [![GitHub forks](https://img.shields.io/github/forks/prakriti16/CosmoScope_Juniors)](https://github.com/prakriti16/CosmoScope_Juniors.git)
 [![GitHub stars](https://img.shields.io/github/stars/prakriti16?style=plastic&logoColor=rgb&labelColor=rgb&color=rgb)](https://github.com/prakriti16/CosmoScope_Juniors.git/stargazers/)
-[![GitHub watchers](https://github.com/prakriti16/CosmoScope_Juniors.git.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/watchers/)
+[![GitHub watchers](https://img.shields.io/github/watchers/prakriti16/CosmoScope_Juniors?style=social&logoColor=violet&labelColor=hex&color=rgba)](https://GitHub.com/Naereen/StrapDown.js/watchers/)
 [![GitHub contributors](https://github.com/prakriti16/CosmoScope_Juniors.git.svg)]()
 [![GitHub contributors](https://github.com/prakriti16/CosmoScope_Juniors.git)]()
 
