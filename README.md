@@ -12,7 +12,8 @@
 
 
 # CosmoScope_Juniors
-Download 
+Download files lightcurve_1.fits and bonus_image_1.fits from https://drive.google.com/drive/folders/1JBI5O2G1roqWwrQ70EhWiCu7ECDCN5Sl?usp=sharing
+Download files 
 
 report
 python notebooks
