@@ -10,7 +10,6 @@
 )]()
 
 
-
 Prerequisites:
 Download files lightcurve_1.fits and bonus_image_1.fits from https://drive.google.com/drive/folders/1JBI5O2G1roqWwrQ70EhWiCu7ECDCN5Sl?usp=sharing
 Download files labelled_data.csv and unlabelled_data.csv from https://drive.google.com/drive/folders/17j-MI-Gnqb_sV_3OaF0uzyoRAWBSwn__?usp=drive_link
