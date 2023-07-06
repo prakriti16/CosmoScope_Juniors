@@ -1,15 +1,15 @@
 from astropy.io import fits
 import matplotlib.pyplot as plt
 
+#task1
 # Open the FITS file
-hdulist = fits.open('lightcurve_1.fits')
+hdulist = fits.open('/kaggle/input/soi123/lightcurve_1.fits')
 
 # Get the table data and columns
 table = hdulist[1].data
 columns = table.columns
 
-
-
+#task2
 # Access the PDCSAP_FLUX and TIME columns
 pdcsap_flux = table['PDCSAP_FLUX']
 time = table['TIME']
@@ -35,20 +35,22 @@ plt.xlabel('TIME')
 plt.ylabel('PDCSAP_FLUX')
 plt.title('Scatterplot of PDCSAP_FLUX vs. TIME')
 
-# Display the lightcurve image
-plt.figure()
-hdulist=fits.open('lightcurve_1.fits')
-image_data=hdulist[2].data
-hdulist.close()
-plt.imshow(image, cmap='twilight')
-#plt.legend()
-plt.colorbar(label='Intensity')
-plt.title('Lightcurve Image')
-
+#task3
 # Plot the values where SAP_QUALITY > 0 in a different color
 mask = sap_quality > 0
 plt.figure(1)
 plt.scatter(time[mask], pdcsap_flux[mask], color='red', s=5, alpha=0.5, label='SAP_QUALITY > 0')
 plt.legend()
 plt.show()
+
+#task4
+# Display the lightcurve image
+plt.figure()
+hdulist=fits.open('/kaggle/input/soi123/lightcurve_1.fits')
+image_data=hdulist[2].data
+hdulist.close()
+plt.imshow(image, cmap='twilight')
+#plt.legend()
+plt.colorbar(label='Intensity')
+plt.title('Lightcurve Image')
 
