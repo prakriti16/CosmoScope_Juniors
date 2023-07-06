@@ -17,5 +17,5 @@ Files in repository:
 1. PART ONE.csv contains a new column LABEL containing predicted labels added to unlabelled_data.csv.
 2. REPORT.pptx file contains report on part one.
 3. PART TWO.ipynb with all the tasks executed.
-4. BONUS.ipynb contains a plot of bonus_image_1.fits
-5. part-one.ipynb contains implementation of the ML model used in part one.
+4. BONUS.ipynb contains the plot of bonus_image_1.fits
+5. part-one.ipynb contains the implementation of the ML model used in part one.
