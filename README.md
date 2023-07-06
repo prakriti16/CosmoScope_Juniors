@@ -15,7 +15,7 @@ Prerequisites:
 Download files lightcurve_1.fits and bonus_image_1.fits from https://drive.google.com/drive/folders/1JBI5O2G1roqWwrQ70EhWiCu7ECDCN5Sl?usp=sharing
 Download files labelled_data.csv and unlabelled_data.csv from https://drive.google.com/drive/folders/17j-MI-Gnqb_sV_3OaF0uzyoRAWBSwn__?usp=drive_link
 
-
-report
-python notebooks
-PART ONE.csv contains predicted labels as a new column.
+Files in repository:
+1. Csv file PART ONE.csv contains a new column LABEL containing predicted labels added to unlabelled_data.csv.
+2. Jupyter notebook with all the tasks executed.
+3. Jupyter notebook bonus contains plot of bonus_image_1.fits
