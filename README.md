@@ -1,5 +1,5 @@
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=plastic&logo=Jupyter)](https://jupyter.org/try)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 [![GitHub branches](https://img.shields.io/github/commit-activity/t/prakriti16/CosmoScope_Juniors)](https://github.com/prakriti16/CosmoScope_Juniors.git)
